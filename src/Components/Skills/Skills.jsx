@@ -12,6 +12,7 @@ const Skills = () => {
 
     return (
         <section className="skills-container">
+            <a className="anchor" id="skills"></a>
             <h5>Tecnical Proficiency</h5>
             <div className="skills-content">
                 <div className="skills">
