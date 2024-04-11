@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: "'Poppins', sans-serif"
+        poppins: "'Poppins', sans-serif",
+        playfire: "'Playfair Display', serif",
+        quicksand: "'Quicksand', sans-serif"
       }
     },
   },

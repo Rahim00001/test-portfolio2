@@ -1,8 +1,8 @@
-.hero-container {
+/* .hero-container {
     display: flex;
     align-items: center;
     position: relative;
-}
+} */
 
 /* mash gradient on hero */
 .hero-container::after,
@@ -18,13 +18,13 @@
 }
 
 .hero-container::after {
-    top: -3rem;
-    left: -5rem;
+    top: -10rem;
+    left: -50rem;
 }
 
 .hero-container::before {
-    bottom: 2rem;
-    right: 0rem;
+    bottom: 20rem;
+    right: 10rem;
 }
 /*  */
 
