@@ -11,7 +11,7 @@
     width: 28.125rem;
     height: 28.125rem;
     border-radius: 28.125rem;
-    background: #7c66e3;
+    background: #5d336e;
     position: absolute;
     z-index: -1;
     filter: blur(225px);
@@ -19,12 +19,12 @@
 
 .hero-container::after {
     top: -10rem;
-    left: -50rem;
+    left: -10rem;
 }
 
 .hero-container::before {
-    bottom: 20rem;
-    right: 10rem;
+    bottom: 2rem;
+    right: 1rem;
 }
 /*  */
 
