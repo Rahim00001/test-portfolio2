@@ -19,3 +19,17 @@ body {
   color:  #fff;
   background-color: #060417;
 }
+
+/* ----------Custom Scrollbar----------- */
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: #0f0b33;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(180deg, #aa94fe -50%, #7d60e6 50%);
+  border-radius: 10px;
+}
