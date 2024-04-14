@@ -23,8 +23,8 @@
 }
 
 .hero-container::before {
-    bottom: 2rem;
-    right: 1rem;
+    bottom: -10rem;
+    right: 10rem;
 }
 /*  */
 

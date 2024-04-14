@@ -3,9 +3,9 @@ import hero from "../../../public/Assets/images/hero.png"
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaSquareFacebook } from "react-icons/fa6";
+import { IoLogoDiscord } from "react-icons/io5";
 const Hero = () => {
     return (
-        // <section className="hero-container">
         <section className="hero-container min-h-[85vh] flex flex-col items-center justify-center">
             <div className="w-max">
                 <div className="flex justify-center items-center">
@@ -20,6 +20,7 @@ const Hero = () => {
                 <IoLogoLinkedin />
                 <FaSquareGithub />
                 <FaSquareFacebook />
+                <IoLogoDiscord />
             </div>
         </section>
     );
