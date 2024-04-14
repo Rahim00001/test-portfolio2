@@ -1,0 +1,62 @@
+.tab-title .tab-links {
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-title .tab-links::before {
+    content: " ";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: -0.6rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+}
+
+.tab-title .tab-links:hover::before{
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.tab-title .tab-links::after{
+    content: " ";
+    width: 0;
+    height: 3px;
+    background: #ffc800;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: all 0.6;
+}
+
+.tab-title .tab-links.active::after{
+    width: 50%;
+}
+
+.about-right .tab-contents ul li{
+    list-style: none;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.tab-contents ul li span {
+    color: #ffc800;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about-right .content {
+    display: none;
+
+}
+
+.show-content {
+    display: block;
+}

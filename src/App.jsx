@@ -1,4 +1,5 @@
 import './App.css'
+import AboutMe from './Components/AboutMe/AboutMe'
 import ContactMe from './Components/ContactMe/ContactMe'
 import Hero from './Components/Hero/Hero'
 import Navbar from './Components/Navbar/Navbar'
@@ -12,6 +13,7 @@ function App() {
       <Navbar></Navbar>
       <div className='container'>
         <Hero></Hero>
+        <AboutMe></AboutMe>
         <Skills></Skills>
         <ContactMe></ContactMe>
         <SocialIcons></SocialIcons>
