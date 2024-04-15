@@ -1,9 +1,5 @@
 import "./Hero.css"
 import hero from "../../../public/Assets/images/hero.png"
-import { IoLogoLinkedin } from "react-icons/io5";
-import { FaSquareGithub } from "react-icons/fa6";
-import { FaSquareFacebook } from "react-icons/fa6";
-import { IoLogoDiscord } from "react-icons/io5";
 const Hero = () => {
     return (
         <section className="hero-container min-h-[85vh] flex flex-col items-center justify-center">
@@ -16,11 +12,8 @@ const Hero = () => {
                 <h4 className="text-3xl text-neutral-300 text flex justify-end">Front-End Developer</h4>
             </div>
             <p className="max-w-[820px] mx-auto text-center mt-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti doloremque ex quos aspernatur cupiditate? Harum exercitationem expedita dolorum, fuga consequuntur quod placeat mollitia velit a rerum. Soluta culpa labore autem. Magnam maxime sed quam quae?</p>
-            <div className="text-neutral-400 text-3xl flex mt-5 gap-2">
-                <IoLogoLinkedin />
-                <FaSquareGithub />
-                <FaSquareFacebook />
-                <IoLogoDiscord />
+            <div className="mt-5">
+                <button className="contact-btn" onClick={() => { }}>Resume</button>
             </div>
         </section>
     );
