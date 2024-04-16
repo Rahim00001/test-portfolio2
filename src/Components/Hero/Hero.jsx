@@ -11,7 +11,7 @@ const Hero = () => {
                 <h1 className="text-7xl font-bold font-quicksand text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-600">Kamrul Islam Rahim</h1>
                 <h4 className="text-3xl text-neutral-300 text flex justify-end">Front-End Developer</h4>
             </div>
-            <p className="max-w-[820px] mx-auto text-center mt-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti doloremque ex quos aspernatur cupiditate? Harum exercitationem expedita dolorum, fuga consequuntur quod placeat mollitia velit a rerum. Soluta culpa labore autem. Magnam maxime sed quam quae?</p>
+            <p className="max-w-[820px] mx-auto text-center mt-6">Passionate about web development with a knack for turning ideas into interactive and engaging web experiences. My journey in coding started with a love for crafting pixel-perfect designs and has evolved into a full-stack adventure.</p>
             <div className="mt-5">
                 <button className="contact-btn" onClick={() => { }}>Resume</button>
             </div>
