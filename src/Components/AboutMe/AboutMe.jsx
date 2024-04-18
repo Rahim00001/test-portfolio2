@@ -1,6 +1,7 @@
 import "./AboutMe.css"
-import about from "../../../public/Assets/images/hero.png"
+import about from "../../../public/Assets/About.json"
 import { useState } from "react";
+import Lottie from "lottie-react";
 const AboutMe = () => {
     const [toggle, setToggle] = useState(1)
     function updateToggle(id) {
@@ -9,7 +10,7 @@ const AboutMe = () => {
     return (
         <section id="about" className="w-[100%] min-h-[80vh] flex flex-wrap justify-between items-center">
             <div className="about-left md:basis-[38%] basis-[45%]">
-                <img src={about} className="w-[100%]" alt="" />
+                <Lottie animationData={about}></Lottie>
             </div>
             <div className="about-right basis-[50%]">
                 <div className="section-title">
