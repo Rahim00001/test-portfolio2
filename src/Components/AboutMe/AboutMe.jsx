@@ -43,8 +43,8 @@ const exprienceData = [
         years: "Jan 2024 - March 2024"
     },
     {
-        company: 'Self Learning',
-        title: "",
+        company: 'Personal Projects',
+        title: "Self Learning",
         years: "Dec 2022 - Current"
     }
 ]
@@ -79,9 +79,8 @@ const AboutMe = () => {
             <div className="about-right basis-[50%]">
                 <div className="section-title">
                     <h2 className="sub-title text-[40px] text-[#d9dae7] font-semibold">About Me</h2>
-                    <h3 className="title text-[22px] leading-5">Web Developer</h3>
                 </div>
-                <div className="tab-title flex py-7">
+                <div className="tab-title flex py-5">
                     <p className="tab-links active-link" onClick={() => updateToggle(1)}>Personal Info</p>
                     <p className="tab-links" onClick={() => updateToggle(2)}>Education</p>
                     <p className="tab-links" onClick={() => updateToggle(3)}>Exprience</p>

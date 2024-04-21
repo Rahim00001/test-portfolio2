@@ -18,8 +18,8 @@ const Navbar = () => {
 
                     <ul>
                         <li><a className="menu-item" href="#">Home</a></li>
+                        <li><a className="menu-item" href="#about">About</a></li>
                         <li><a className="menu-item" href="#skills">Skills</a></li>
-                        <li><a className="menu-item" href="#work">Work Exprience</a></li>
                         <li><a className="menu-item" href="#contact">Contact Me</a></li>
                         <button className="contact-btn" onClick={() => { }}>Hire Me</button>
                     </ul>

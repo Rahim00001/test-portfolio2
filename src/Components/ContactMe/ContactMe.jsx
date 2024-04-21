@@ -3,8 +3,7 @@ import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
 import "./ContactMe.css"
 const ContactMe = () => {
     return (
-        <section className="contact-container">
-            <a className="anchor" id="contact"></a>
+        <section className="contact-container" id="contact">
             <h5>Contact Me</h5>
             <div className="cotact-content">
                 <div style={{ flex: 1 }}>
