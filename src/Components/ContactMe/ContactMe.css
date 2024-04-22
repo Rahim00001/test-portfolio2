@@ -3,12 +3,6 @@
     position: relative;
 }
 
-.contact-container h5 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 3rem;
-}
-
 .cotact-content {
     display: flex;
     gap: 3rem;
@@ -16,7 +10,7 @@
 
 @media (max-width: 768px) {
     .cotact-content {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }   
 
     .contact-container h5 {
