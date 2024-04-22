@@ -5,10 +5,10 @@ import shape from "../../../public/Assets/images/shape-3.png"
 const Projects = () => {
     return (
         <section className="projects-container">
-            <h3 className="text-[#d9dae7] text-[40px] font-semibold mb-[3.5rem] mx-[2rem]">Recent Projects</h3>
+            <h3 className="text-[#d9dae7] text-[40px] font-semibold mb-[3.5rem] mx-[2rem]" data-aos="fade-up" data-aos-duration="1000">Recent Projects</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-center items-center">
-                {/* Card 3=1 */}
-                <div className="flex items-center justify-center project_items">
+                {/* Card 1 */}
+                <div className="flex items-center justify-center project_items" data-aos="fade-up-right" data-aos-duration="1000">
                     <div className="bg-indigo-950 p-5 rounded-2xl w-[80%] md:w-[360px]">
                         {/* image */}
                         <div className="w-full h-[230px]">
@@ -36,7 +36,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Card 2 */}
-                <div className="flex items-center justify-center project_items">
+                <div className="flex items-center justify-center project_items" data-aos="zoom-in-up" data-aos-duration="1200">
                     <div className="bg-indigo-950 p-5 rounded-2xl w-[80%] md:w-[360px]">
                         {/* image */}
                         <div className="w-full h-[230px]">
@@ -64,7 +64,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Card 3 */}
-                <div className="flex items-center justify-center project_items">
+                <div className="flex items-center justify-center project_items" data-aos="fade-up-left" data-aos-duration="1000">
                     <div className="bg-indigo-950 p-5 rounded-2xl w-[80%] md:w-[360px]">
                         {/* image */}
                         <div className="w-full h-[230px]">

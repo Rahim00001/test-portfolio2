@@ -73,10 +73,10 @@ const AboutMe = () => {
     }
     return (
         <section id="about" className="w-[100%] min-h-[80vh] flex flex-wrap justify-between items-center">
-            <div className="about-left md:basis-[38%] basis-[45%] hidden md:flex">
+            <div className="about-left md:basis-[38%] basis-[45%] hidden md:flex" data-aos="fade-up-right" data-aos-duration="1000">
                 <Lottie animationData={about}></Lottie>
             </div>
-            <div className="about-right basis-[50%]">
+            <div className="about-right basis-[50%]" data-aos="fade-up-left" data-aos-duration="1000">
                 <div className="section-title">
                     <h2 className="sub-title text-[40px] text-[#d9dae7] font-semibold">About Me</h2>
                 </div>

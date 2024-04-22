@@ -12,9 +12,9 @@ const Skills = () => {
 
     return (
         <section className="skills-container">
-            <h5 className="text-[#d9dae7]">Tecnical Proficiency</h5>
+            <h5 className="text-[#d9dae7]" data-aos="fade-up" data-aos-duration="1000">Tecnical Proficiency</h5>
             <div className="skills-content">
-                <div className="skills">
+                <div className="skills" data-aos="fade-up-right" data-aos-duration="1000">
                     {SKILLS.map((item) => (
                         <SkillCard
                             key={item.title}
@@ -27,7 +27,7 @@ const Skills = () => {
                         ></SkillCard>
                     ))}
                 </div>
-                <div className="skills-info" id="skills">
+                <div className="skills-info" id="skills" data-aos="fade-up-left" data-aos-duration="1000">
                     <SkillInfoCard
                         heading={selectedSkill.title}
                         skills={selectedSkill.skills}
