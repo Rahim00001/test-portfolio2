@@ -7,10 +7,11 @@ const MobileNavbar = ({ isOpen, toggleMenu }) => {
                 <div className="mobile-menu-container">
                     <img className="logo" src="../../../../public/Assets/images/logo.svg" alt="" />
                     <ul>
-                        <li><a className="menu-item" href=""> Home</a></li>
-                        <li><a className="menu-item" href="">Skills</a></li>
-                        <li><a className="menu-item" href="">Work Exprience</a></li>
-                        <li><a className="menu-item" href="">Contact Me</a></li>
+                        <li><a className="menu-item" href="#"> Home</a></li>
+                        <li><a className="menu-item" href="#about">About</a></li>
+                        <li><a className="menu-item" href="#skills">Skills</a></li>
+                        <li><a className="menu-item" href="#projects">Projects</a></li>
+                        <li><a className="menu-item" href="contact">Contact Me</a></li>
                         <button className="contact-btn" onClick={() => { }}>Hire Me</button>
                     </ul>
                 </div>

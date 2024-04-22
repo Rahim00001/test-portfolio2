@@ -4,6 +4,7 @@ import { FaAlignJustify } from "react-icons/fa6";
 import MobileNavbar from "./MobileNavbar/MobileNavbar";
 const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
+    const [active, setActive] = useState(0);
 
     const toggleMenu = () => {
         setOpenMenu(!openMenu)
@@ -17,10 +18,10 @@ const Navbar = () => {
                     <img className="logo" src="/Assets/images/logo.svg" alt="" />
 
                     <ul>
-                        <li><a className="menu-item" href="#">Home</a></li>
-                        <li><a className="menu-item" href="#about">About</a></li>
-                        <li><a className="menu-item" href="#skills">Skills</a></li>
-                        <li><a className="menu-item" href="#contact">Contact Me</a></li>
+                        <li><a className={`menu-item ${active === "#" ? 'activeLink' : ' '}`} href="#" onClick={() => { setActive("#") }}>Home</a></li>
+                        <li><a className={`menu-item ${active === "#about" ? 'activeLink' : ' '}`} href="#about" onClick={() => { setActive("#about") }}>About</a></li>
+                        <li><a className={`menu-item ${active === "#skills" ? 'activeLink' : ' '}`} href="#skills" onClick={() => { setActive("#skills") }}>Skills</a></li>
+                        <li><a className={`menu-item ${active === "#contact" ? 'activeLink' : ' '}`} href="#contact" onClick={() => { setActive("#contact") }}>Contact Me</a></li>
                         <button className="contact-btn" onClick={() => { }}>Hire Me</button>
                     </ul>
                     <button className="menu-btn" onClick={toggleMenu}>

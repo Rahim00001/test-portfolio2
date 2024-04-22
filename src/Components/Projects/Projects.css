@@ -1,0 +1,7 @@
+.project_items:hover .projectImg {
+    transform: scale(1.04);
+}
+
+.projectImg {
+    transition: all 0.4s ease;
+}

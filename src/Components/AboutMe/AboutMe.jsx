@@ -67,7 +67,7 @@ const educationData = [
     }
 ]
 const AboutMe = () => {
-    const [toggle, setToggle] = useState(1)
+    const [toggle, setToggle] = useState(1);
     const updateToggle = (id) => {
         setToggle(id)
     }

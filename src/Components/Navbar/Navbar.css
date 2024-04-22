@@ -55,6 +55,17 @@
     transition: all 0.3s ease;
 }
 
+.activeLink {
+    color: #7e61e7;
+}
+
+.activeLink::before,
+.menu-item:hover::before {
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+} 
+
 .menu-item:hover::before {
     width: 100%;
     transform: translateX(0);
