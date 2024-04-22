@@ -4,7 +4,7 @@ import { FaDribbble } from "react-icons/fa6";
 import shape from "../../../public/Assets/images/shape-3.png"
 const Projects = () => {
     return (
-        <div>
+        <section className="projects-container">
             <h3 className="text-[#d9dae7] text-[40px] font-semibold mb-[3.5rem] mx-[2rem]">Recent Projects</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-center items-center">
                 {/* Card 3=1 */}
@@ -92,7 +92,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -1,4 +1,5 @@
 import "./ContactForm.css"
+import { FaRegPaperPlane } from "react-icons/fa";
 const ContactForm = () => {
     return (
         <div className="contact-form-content">
@@ -13,7 +14,7 @@ const ContactForm = () => {
                 <input type="text" name="email" placeholder="Email" />
                 <textarea type="text" name="message" placeholder="Message" rows={3}></textarea>
 
-                <button>SEND</button>
+                <button className="flex justify-center items-center gap-2"><FaRegPaperPlane />SEND </button>
             </form>
         </div>
     );
