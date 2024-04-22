@@ -9,7 +9,8 @@ export default {
       fontFamily: {
         poppins: "'Poppins', sans-serif",
         playfire: "'Playfair Display', serif",
-        quicksand: "'Quicksand', sans-serif"
+        quicksand: "'Quicksand', sans-serif",
+        sacramento: "'Sacramento', cursive"
       }
     },
   },

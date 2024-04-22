@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Projects from './Components/Projects/Projects'
 import Skills from './Components/Skills/Skills'
 import SocialIcons from './Components/SocialIcons/SocialIcons'
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Skills></Skills>
         <Projects></Projects>
         <ContactMe></ContactMe>
+        <Footer></Footer>
         <SocialIcons></SocialIcons>
       </div>
     </>

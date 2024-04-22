@@ -15,7 +15,9 @@ const Navbar = () => {
             <MobileNavbar isOpen={openMenu} toggleMenu={toggleMenu}></MobileNavbar>
             <nav className="nav-wrapper">
                 <div className="nav-content">
-                    <img className="logo" src="/Assets/images/logo.svg" alt="" />
+                    <a href="#">
+                        <p className="logo font-sacramento text-4xl font-semibold">Rahim</p>
+                    </a>
 
                     <ul>
                         <li><a className={`menu-item ${active === "#" ? 'activeLink' : ' '}`} href="#" onClick={() => { setActive("#") }}>Home</a></li>
