@@ -1,6 +1,7 @@
 import "./Hero.css"
 import hero from "../../../public/Assets/images/hero.png"
 import TypewriterComponent from "typewriter-effect";
+import { HiOutlineDownload } from "react-icons/hi";
 const Hero = () => {
     return (
         <section className="hero-container min-h-[88vh] flex flex-col items-center justify-center">
@@ -23,9 +24,13 @@ const Hero = () => {
                 </div>
             </div>
             <div className="flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="1000">
-                <p className="max-w-[820px] mx-auto text-center mt-6">Passionate about web development with a knack for turning ideas into interactive and engaging web experiences. My journey in coding started with a love for crafting pixel-perfect designs and has evolved into a full-stack adventure.</p>
+                <p className="max-w-[820px] mx-auto text-neutral-200 text-center mt-6">Passionate about web development with a knack for turning ideas into interactive and engaging web experiences. My journey in coding started with a love for crafting pixel-perfect designs and has evolved into a full-stack adventure.</p>
                 <div className="mt-5">
-                    <button className="contact-btn" onClick={() => { }}>Resume</button>
+                    <a href="../../../public/Assets/KAMRUL_RAHIM RESUME.pdf" download>
+                        <div>
+                            <button className="contact-btn">Resume  <HiOutlineDownload className="ml-1 mt-[2px]" size={18} /></button>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
