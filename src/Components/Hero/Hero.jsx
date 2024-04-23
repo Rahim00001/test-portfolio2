@@ -1,5 +1,6 @@
 import "./Hero.css"
 import hero from "../../../public/Assets/images/hero.png"
+import TypewriterComponent from "typewriter-effect";
 const Hero = () => {
     return (
         <section className="hero-container min-h-[88vh] flex flex-col items-center justify-center">
@@ -10,7 +11,15 @@ const Hero = () => {
                 <div data-aos="fade-up-left" data-aos-duration="1000">
                     <p className="text-xl text-neutral-400">Hello! I am,</p>
                     <h1 className="text-4xl md:text-7xl font-bold font-quicksand text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-600">Kamrul Islam Rahim</h1>
-                    <h4 className="text-2xl md:text-3xl text-neutral-300 text flex justify-end">Front-End Developer</h4>
+                    <h4 className="text-2xl md:text-3xl text-neutral-400 flex justify-end">
+                        <TypewriterComponent
+                            options={{
+                                strings: ['Front-End Developer', 'MERN Stack Developer', 'React Developer'],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        />
+                    </h4>
                 </div>
             </div>
             <div className="flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="1000">
