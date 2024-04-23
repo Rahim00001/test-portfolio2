@@ -9,6 +9,7 @@ import { SlGraduation } from "react-icons/sl";
 import { MdOutlineMapsHomeWork } from "react-icons/md";
 import { GoBriefcase } from "react-icons/go";
 import { FaRegCircleDot } from "react-icons/fa6";
+import { IoBookOutline } from "react-icons/io5";
 const infoData = [
     {
         icon: <FaRegUser size={20}></FaRegUser>,
@@ -89,8 +90,8 @@ const AboutMe = () => {
                 {/* Personal Info */}
                 <div className={toggle === 1 ? "show-content" : "content"} id="skills">
                     <div className="text-center md:text-left">
-                        <h3 className="text-3xl font-bold mb-4">Unmatched Service Quality Over 1 Year</h3>
-                        <p className="text-neutral-300 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde iusto quidem, dicta totam quas. Magni quia nihil accusamus suscipit!</p>
+                        <h3 className="text-3xl font-bold mb-4">Creating Seamless and Intuitive Web experiences</h3>
+                        <p className="text-neutral-300 mb-3">Passionate web developer with a knack for turning ideas into interactive and engaging web experiences. My journey in coding started with a love for crafting pixel-perfect designs and has evolved into a full-stack adventure.</p>
                         <div className="grid lg:grid-cols-2 gap-4 mb-12">
                             {infoData.map((item, index) => {
                                 return <div className="flex items-center gap-x-4 mx-auto lg:mx-0" key={index}>
@@ -110,11 +111,11 @@ const AboutMe = () => {
                 {/* Education */}
                 <div className={toggle === 2 ? "show-content" : "content"} id="education">
                     <div>
-                        <h3 className="text-3xl font-bold mb-4 text-center md:text-left">My Awsome Journey</h3>
+                        <h3 className="text-3xl font-bold mb-4 text-center md:text-left">Academic Qualifications</h3>
                         <div>
                             <div className="flex gap-x-3 items-center text-xl mb-3">
-                                <GoBriefcase />
-                                <p>Exprience</p>
+                                <IoBookOutline />
+                                <p>Education</p>
                             </div>
                             {/* list */}
                             <div className="flex flex-col gap-y-3">
