@@ -5,7 +5,7 @@
 } */
 
 /* mash gradient on hero */
-.hero-container::after,
+/* .hero-container::after,
 .hero-container::before {
     content: " ";
     width: 28.125rem;
@@ -25,7 +25,7 @@
 .hero-container::before {
     bottom: 10rem;
     right: 10rem;
-}
+} */
 /*  */
 
 .hero-content {
@@ -133,7 +133,7 @@
         text-align: center;
     }
 
-    .hero-container::after, 
+    /* .hero-container::after, 
     .hero-container::before {
         content: " ";
         width: 18rem;
@@ -148,7 +148,7 @@
     .hero-container::before {
         bottom: 2rem;
         right: 0rem;
-    }
+    } */
 
 
 }

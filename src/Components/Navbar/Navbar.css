@@ -90,7 +90,7 @@
 
 .contact-btn:hover {
     color: #a993fe;
-    background: #000;
+    background: transparent;
     outline:  1.5px solid #a993fe;
 }
 

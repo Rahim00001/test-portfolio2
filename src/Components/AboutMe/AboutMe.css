@@ -1,3 +1,31 @@
+.about-container {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.about-container::after,
+.about-container::before {
+    content: " ";
+    width: 16rem;
+    height: 20rem;
+    border-radius: 1.125rem;
+    background: #9e51b9;
+    position: absolute;
+    z-index: -1;
+    filter: blur(200px);
+}
+
+.about-container::after {
+    top: 5rem;
+    left: -5rem;
+}
+
+.about-container::before {
+    background: #7c66e3;
+    bottom: 20rem;
+    right: 2rem;
+}
+
 .tab-title .tab-links {
     /* margin-right: 50px;
     font-size: 18px; */
@@ -59,4 +87,12 @@
 
 .show-content {
     display: block;
+}
+
+@media (max-width: 768px){
+    .about-container::after,
+    .about-container::before {
+        width: 12rem;
+        height: 16rem;
+    }
 }

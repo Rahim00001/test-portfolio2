@@ -11,18 +11,22 @@ import Footer from './Components/Footer/Footer'
 function App() {
 
   return (
-    < div className='overflow-hidden'>
-      <Navbar></Navbar>
-      <div className='container'>
-        <Hero></Hero>
-        <AboutMe></AboutMe>
-        <Skills></Skills>
-        <Projects></Projects>
-        <ContactMe></ContactMe>
-        <Footer></Footer>
-        <SocialIcons></SocialIcons>
+    <>
+      <div className='bg-opacity-10 backdrop-blur-50 sticky top-0 z-30'>
+        <Navbar></Navbar>
       </div>
-    </div>
+      <div className='overflow-hidden'>
+        <div className='container'>
+          <Hero></Hero>
+          <AboutMe></AboutMe>
+          <Skills></Skills>
+          <Projects></Projects>
+          <ContactMe></ContactMe>
+          <Footer></Footer>
+          <SocialIcons></SocialIcons>
+        </div>
+      </div>
+    </>
   )
 }
 

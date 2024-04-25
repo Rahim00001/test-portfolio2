@@ -35,7 +35,7 @@
 }
 
 .skill-icon img {
-    width: 2.4rem;
+    width: 2.8rem;
     height: auto;
     object-fit: contain;
 }
@@ -55,7 +55,7 @@
     }
 
     .skill-icon img {
-        width: 1.8rem;
+        width: 2.2rem;
     }
 }
 

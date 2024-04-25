@@ -72,15 +72,15 @@ const AboutMe = () => {
         setToggle(id)
     }
     return (
-        <section id="about" className="w-[100%] min-h-[80vh] flex flex-wrap justify-center md:justify-between items-center">
-            <div className="about-left md:basis-[38%] basis-[45%]" data-aos="fade-up-right" data-aos-duration="1000">
+        <section id="about" className="about-container w-[100%] min-h-[80vh] md:mt-5 lg:mt-0 flex flex-wrap justify-center md:justify-between items-center">
+            <div className="about-left basis-[70%] md:basis-[40%]" data-aos="fade-up-right" data-aos-duration="1000">
                 <Lottie animationData={about}></Lottie>
             </div>
-            <div className="about-right basis-[50%]" data-aos="fade-up-left" data-aos-duration="1000">
-                <div className="section-title">
-                    <h2 className="sub-title text-[40px] text-[#d9dae7] font-semibold">About Me</h2>
+            <div className="about-right basis-[90%] md:basis-[50%]" data-aos="fade-up-left" data-aos-duration="1000">
+                <div className="section-title flex justify-center md:justify-start">
+                    <h2 className="sub-title text-[33px] text-[#d9dae7] font-semibold">About Me</h2>
                 </div>
-                <div className="tab-title flex py-5">
+                <div className="tab-title flex justify-center md:justify-start py-5">
                     <p className="tab-links text-sm md:text-base lg:text-lg mr-3 md:mr-6 lg:mr-12  active-link" onClick={() => updateToggle(1)}>Personal Info</p>
                     <p className="tab-links text-sm md:text-base lg:text-lg mr-3 md:mr-6 lg:mr-12 " onClick={() => updateToggle(2)}>Education</p>
                     <p className="tab-links text-sm md:text-base lg:text-lg" onClick={() => updateToggle(3)}>Exprience</p>
@@ -110,7 +110,7 @@ const AboutMe = () => {
                 {/* Education */}
                 <div className={toggle === 2 ? "show-content" : "content"} id="education">
                     <div>
-                        <h3 className="text-3xl font-bold mb-4 text-center md:text-left">Academic Qualifications</h3>
+                        <h3 className="text-2xl lg:text-3xl font-bold mb-4 text-center md:text-left">Academic Qualifications</h3>
                         <div>
                             <div className="flex gap-x-3 items-center text-xl mb-3">
                                 <IoBookOutline />
@@ -140,7 +140,7 @@ const AboutMe = () => {
                 {/* Exprieence */}
                 <div className={toggle === 3 ? "show-content" : "content"} id="education">
                     <div>
-                        <h3 className="text-3xl font-bold mb-4 text-center md:text-left">My Awsome Journey</h3>
+                        <h3 className="text-2xl lg:text-3xl font-bold mb-4 text-center md:text-left">My Awsome Journey</h3>
                         <div>
                             <div className="flex gap-x-3 items-center text-xl mb-3">
                                 <GoBriefcase />

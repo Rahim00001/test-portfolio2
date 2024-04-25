@@ -3,6 +3,29 @@
     position: relative;
 }
 
+.contact-container::after,
+.contact-container::before {
+    content: " ";
+    width: 16rem;
+    height: 16rem;
+    border-radius: 28.125rem;
+    background: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    filter: blur(200px);
+}
+
+.contact-container::after {
+    bottom: -5rem;
+    left: -5rem;
+}
+
+.contact-container::before {
+    background: #9e51b9;
+    bottom: 5rem;
+    right: 4rem;
+}
+
 .cotact-content {
     display: flex;
     gap: 3rem;
@@ -16,5 +39,11 @@
     .contact-container h5 {
         font-size: 1.3rem;
         margin-bottom: 2rem;
+    }
+
+    .contact-container::after,
+    .contact-container::before {
+        width: 12rem;
+        height: 16rem;
     }
 }
