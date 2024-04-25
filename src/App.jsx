@@ -11,7 +11,7 @@ import Footer from './Components/Footer/Footer'
 function App() {
 
   return (
-    <>
+    < div className='overflow-hidden'>
       <Navbar></Navbar>
       <div className='container'>
         <Hero></Hero>
@@ -22,7 +22,7 @@ function App() {
         <Footer></Footer>
         <SocialIcons></SocialIcons>
       </div>
-    </>
+    </div>
   )
 }
 

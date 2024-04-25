@@ -5,7 +5,7 @@ import shape from "../../../public/Assets/images/shape-3.png"
 const Projects = () => {
     return (
         <section id="projects" className="projects-container">
-            <h3 className="text-[#d9dae7] text-[40px] font-semibold mb-[3.5rem] mx-[2rem]" data-aos="fade-up" data-aos-duration="1000">Recent Projects</h3>
+            <h3 className="text-[#d9dae7] text-3xl md:text-[40px] font-semibold mb-6 md:mb-[3.5rem] md:mx-[2rem]" data-aos="fade-up" data-aos-duration="1000">Recent Projects</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-center items-center">
                 {/* Card 1 */}
                 <div className="flex items-center justify-center project_items" data-aos="fade-up-right" data-aos-duration="1000">

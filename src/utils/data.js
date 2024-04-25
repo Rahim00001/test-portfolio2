@@ -14,10 +14,10 @@ export const SKILLS = [
         title: "Backend",
         icon: "../../public/Assets/images/js.png",
         skills: [
-            { skill: "NodeJs", percentage: "70%" },
-            { skill: "Express.js", percentage: "70%" },
-            { skill: "MongoDB", percentage: "65%" },
-            { skill: "Mongoose", percentage: "60%" },
+            { skill: "NodeJs", percentage: "75%" },
+            { skill: "Express.js", percentage: "75%" },
+            { skill: "MongoDB", percentage: "70%" },
+            { skill: "Mongoose", percentage: "65%" },
         ],
     },
     {

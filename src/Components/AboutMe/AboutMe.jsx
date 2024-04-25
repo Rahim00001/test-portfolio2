@@ -49,7 +49,6 @@ const exprienceData = [
         years: "Dec 2022 - Current"
     }
 ]
-
 const educationData = [
     {
         institute: 'Dhaka College',
@@ -73,8 +72,8 @@ const AboutMe = () => {
         setToggle(id)
     }
     return (
-        <section id="about" className="w-[100%] min-h-[80vh] flex flex-wrap justify-between items-center">
-            <div className="about-left md:basis-[38%] basis-[45%] hidden md:flex" data-aos="fade-up-right" data-aos-duration="1000">
+        <section id="about" className="w-[100%] min-h-[80vh] flex flex-wrap justify-center md:justify-between items-center">
+            <div className="about-left md:basis-[38%] basis-[45%]" data-aos="fade-up-right" data-aos-duration="1000">
                 <Lottie animationData={about}></Lottie>
             </div>
             <div className="about-right basis-[50%]" data-aos="fade-up-left" data-aos-duration="1000">
@@ -82,15 +81,15 @@ const AboutMe = () => {
                     <h2 className="sub-title text-[40px] text-[#d9dae7] font-semibold">About Me</h2>
                 </div>
                 <div className="tab-title flex py-5">
-                    <p className="tab-links active-link" onClick={() => updateToggle(1)}>Personal Info</p>
-                    <p className="tab-links" onClick={() => updateToggle(2)}>Education</p>
-                    <p className="tab-links" onClick={() => updateToggle(3)}>Exprience</p>
+                    <p className="tab-links text-sm md:text-base lg:text-lg mr-3 md:mr-6 lg:mr-12  active-link" onClick={() => updateToggle(1)}>Personal Info</p>
+                    <p className="tab-links text-sm md:text-base lg:text-lg mr-3 md:mr-6 lg:mr-12 " onClick={() => updateToggle(2)}>Education</p>
+                    <p className="tab-links text-sm md:text-base lg:text-lg" onClick={() => updateToggle(3)}>Exprience</p>
                 </div>
 
                 {/* Personal Info */}
                 <div className={toggle === 1 ? "show-content" : "content"} id="skills">
                     <div className="text-center md:text-left">
-                        <h3 className="text-3xl font-bold mb-4">Creating Seamless and Intuitive Web experiences</h3>
+                        <h3 className="text-2xl lg:text-3xl font-bold mb-4">Creating Seamless and Intuitive Web experiences</h3>
                         <p className="text-neutral-300 mb-3">Passionate web developer with a knack for turning ideas into interactive and engaging web experiences. My journey in coding started with a love for crafting pixel-perfect designs and has evolved into a full-stack adventure.</p>
                         <div className="grid lg:grid-cols-2 gap-4 mb-12">
                             {infoData.map((item, index) => {
