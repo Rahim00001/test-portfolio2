@@ -7,6 +7,7 @@ import Projects from './Components/Projects/Projects'
 import Skills from './Components/Skills/Skills'
 import SocialIcons from './Components/SocialIcons/SocialIcons'
 import Footer from './Components/Footer/Footer'
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <ContactMe></ContactMe>
           <Footer></Footer>
           <SocialIcons></SocialIcons>
+          <ScrollToTop></ScrollToTop>
         </div>
       </div>
     </>
