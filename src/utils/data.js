@@ -1,7 +1,7 @@
 export const SKILLS = [
     {
         title: "Frontend",
-        icon: "../../public/Assets/images/frontend.png",
+        icon: "https://i.ibb.co/9hgw4n0/frontend.png",
         skills: [
             { skill: "HTML5", percentage: "90%" },
             { skill: "CSS3", percentage: "85%" },
@@ -12,7 +12,7 @@ export const SKILLS = [
     },
     {
         title: "Backend",
-        icon: "../../public/Assets/images/backend.png",
+        icon: "https://i.ibb.co/4dNVb75/backend.png",
         skills: [
             { skill: "NodeJs", percentage: "75%" },
             { skill: "Express.js", percentage: "75%" },
@@ -22,7 +22,7 @@ export const SKILLS = [
     },
     {
         title: "Tools",
-        icon: "../../public/Assets/images/tools.png",
+        icon: "https://i.ibb.co/251vWRC/tools.png",
         skills: [
             { skill: "Git & GitHub", percentage: "85%" },
             { skill: "Visual Studio Code", percentage: "90%" },
@@ -35,7 +35,7 @@ export const SKILLS = [
     },
     {
         title: "Soft Skills",
-        icon: "../../public/Assets/images/soft2.png",
+        icon: "https://i.ibb.co/WDpzh6G/soft2.png",
         skills: [
             { skill: "Team Collaboration", percentage: "90%" },
             { skill: "Time Management", percentage: "85%" },

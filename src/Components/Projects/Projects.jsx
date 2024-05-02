@@ -4,9 +4,9 @@ import { FaDribbble } from "react-icons/fa6";
 import shape from "../../../public/Assets/images/shape-3.png"
 const Projects = () => {
     return (
-        <section id="projects" className="projects-container">
+        <section id="projects" className="projects-container border">
             <h3 className="text-[#d9dae7] text-3xl md:text-[40px] font-semibold mb-6 md:mb-[3.5rem] md:mx-[2rem]" data-aos="fade-up" data-aos-duration="1000">Recent Projects</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-center items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-center items-center border">
                 {/* Card 1 */}
                 <div className="flex items-center justify-center project_items" data-aos="fade-up-right" data-aos-duration="1000">
                     <div className="bg-indigo-950 p-5 rounded-2xl w-[80%] md:w-[360px]">
