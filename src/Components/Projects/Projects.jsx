@@ -4,12 +4,12 @@ import { FaDribbble } from "react-icons/fa6";
 import shape from "../../../public/Assets/images/shape-3.png"
 const Projects = () => {
     return (
-        <section id="projects" className="projects-container border">
+        <section id="projects" className="projects-container">
             <h3 className="text-[#d9dae7] text-3xl md:text-[40px] font-semibold mb-6 md:mb-[3.5rem] md:mx-[2rem]" data-aos="fade-up" data-aos-duration="1000">Recent Projects</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-center items-center border">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-center items-center">
                 {/* Card 1 */}
                 <div className="flex items-center justify-center project_items" data-aos="fade-up-right" data-aos-duration="1000">
-                    <div className="bg-indigo-950 p-5 rounded-2xl w-[80%] md:w-[360px]">
+                    <div className="bg-indigo-950 p-5 rounded-2xl w-[90%] md:w-[360px]">
                         {/* image */}
                         <div className="w-full h-[230px]">
                             <img src="https://i.ibb.co/rm3J4hg/Screenshot-502.png" alt="projectImg" className="w-full h-full object-cover rounded-2xl projectImg" />
@@ -37,7 +37,7 @@ const Projects = () => {
                 </div>
                 {/* Card 2 */}
                 <div className="flex items-center justify-center project_items" data-aos="zoom-in-up" data-aos-duration="1200">
-                    <div className="bg-indigo-950 p-5 rounded-2xl w-[80%] md:w-[360px]">
+                    <div className="bg-indigo-950 p-5 rounded-2xl w-[90%] md:w-[360px]">
                         {/* image */}
                         <div className="w-full h-[230px]">
                             <img src="https://i.ibb.co/8851DL0/Screenshot-499.png" alt="projectImg" className="w-full h-full object-cover rounded-2xl projectImg" />
@@ -65,7 +65,7 @@ const Projects = () => {
                 </div>
                 {/* Card 3 */}
                 <div className="flex items-center justify-center project_items" data-aos="fade-up-left" data-aos-duration="1000">
-                    <div className="bg-indigo-950 p-5 rounded-2xl w-[80%] md:w-[360px]">
+                    <div className="bg-indigo-950 p-5 rounded-2xl w-[90%] md:w-[360px]">
                         {/* image */}
                         <div className="w-full h-[230px]">
                             <img src="https://i.ibb.co/pZ576D0/Screenshot-500.png" alt="projectImg" className="w-full h-full object-cover rounded-2xl projectImg" />
